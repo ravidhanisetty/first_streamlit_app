@@ -16,5 +16,12 @@ streamlit.text('Puri(3) and Allo kurma')
 streamlit.text('Pesaretu and upuma with chutney')
 
 
+streamlit.header('Build your own smoothie')
+import pandas
+my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
+streamlit.dataframe(my_fruit_list)
+
+
+
 
 
