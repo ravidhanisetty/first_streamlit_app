@@ -4,9 +4,10 @@ streamlit.title('My Parents new Health Dinner')
 
 streamlit.header('Breakfast Menu')
 
-streamlit.text('Omega 3 & Blueberry Omlet')
-streamlit.text('Kale, Spinach and Rocket Smoothie')
-streamlit.text('Hard-Boiled free range Eggs')
+streamlit.text(' 🥣 Omega 3 & Blueberry Omlet')
+streamlit.text(' 🥗 Kale, Spinach and Rocket Smoothie')
+streamlit.text(' 🐔 Hard-Boiled free range Eggs')
+streamlit.text(' 🥑🍞Avocado Toast')
 
 streamlit.header('Indian Breakfast Menu')
 
