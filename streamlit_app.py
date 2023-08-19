@@ -44,5 +44,8 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # storing data in columnar format usinf the dataframe?
 streamlit.dataframe(fruityvice_normalized)
 
+import snowflake.connector
+
+
 
 
